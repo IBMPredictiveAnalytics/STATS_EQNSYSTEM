@@ -1,0 +1,230 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_EQNSYSTEM.R:108
+msgid "Equation System"
+msgstr ""
+"方程式系統"
+
+#: STATS_EQNSYSTEM.R:109
+msgid "Equation System: Warnings"
+msgstr ""
+"方程式系統：警告"
+
+#: STATS_EQNSYSTEM.R:114
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 套件是必要套件，但無法載入。"
+
+#: STATS_EQNSYSTEM.R:121
+msgid "The active dataset must have a name in order to use this procedure"
+msgstr ""
+"作用中資料集必須具有名稱，以使用此程序"
+
+#: STATS_EQNSYSTEM.R:125
+msgid "The output dataset name must not already be in use"
+msgstr ""
+"輸出資料集名稱不得已使用"
+
+#: STATS_EQNSYSTEM.R:141
+msgid "Cannot specify both automatic instruments and a list of instruments"
+msgstr ""
+"無法同時指定自動輔助變數及輔助變數清單"
+
+#: STATS_EQNSYSTEM.R:211
+msgid "Invalid syntax or duplicate equation name"
+msgstr ""
+"語法無效或方程式名稱重複"
+
+#: STATS_EQNSYSTEM.R:217
+msgid "Invalid syntax: Expected \":\""
+msgstr ""
+"語法無效：預期 \":\""
+
+#: STATS_EQNSYSTEM.R:224
+msgid "Invalid syntax: Expected \"=\""
+msgstr ""
+"語法無效：預期 \"=\""
+
+#: STATS_EQNSYSTEM.R:238
+msgid "One or more invalid variable names were found in the equations."
+msgstr ""
+"在方程式中發現一或多個無效的變數名稱。"
+
+#: STATS_EQNSYSTEM.R:245
+msgid "Duplicate equation names were found.  Names must be unique, ignoring case."
+msgstr ""
+"發現重複的方程式名稱。名稱必須是唯一的，且不區分大小寫。"
+
+#: STATS_EQNSYSTEM.R:264
+msgid "Number of Equations"
+msgstr ""
+"方程式數目"
+
+#: STATS_EQNSYSTEM.R:265
+msgid "Estimation Method"
+msgstr ""
+"估計方法"
+
+#: STATS_EQNSYSTEM.R:266
+msgid "3SLS Method"
+msgstr ""
+"3SLS 方法"
+
+#: STATS_EQNSYSTEM.R:267
+msgid "Residual Covariance Method"
+msgstr ""
+"殘差共變異方法"
+
+#: STATS_EQNSYSTEM.R:268
+msgid "Instrumental Variables"
+msgstr ""
+"輔助變數"
+
+#: STATS_EQNSYSTEM.R:269
+msgid "Maximum Iterations"
+msgstr ""
+"反覆運算次數上限"
+
+#: STATS_EQNSYSTEM.R:270
+msgid "Tolerance"
+msgstr ""
+"容錯"
+
+#: STATS_EQNSYSTEM.R:271
+msgid "Actual Iterations"
+msgstr ""
+"實際反覆運算次數"
+
+#: STATS_EQNSYSTEM.R:272
+msgid "Convergence Achieved"
+msgstr ""
+"已達成收斂"
+
+#: STATS_EQNSYSTEM.R:273
+msgid "System D. F."
+msgstr ""
+"系統自由度"
+
+#: STATS_EQNSYSTEM.R:274
+msgid "Output Dataset"
+msgstr ""
+"輸出資料集"
+
+#: STATS_EQNSYSTEM.R:278
+#: STATS_EQNSYSTEM.R:287
+#: STATS_EQNSYSTEM.R:289
+#: STATS_EQNSYSTEM.R:292
+#: STATS_EQNSYSTEM.R:295
+msgid "--NA--"
+msgstr ""
+"--不適用--"
+
+#: STATS_EQNSYSTEM.R:280
+msgid "Yes"
+msgstr ""
+"是"
+
+#: STATS_EQNSYSTEM.R:282
+msgid "NO"
+msgstr ""
+"否"
+
+#: STATS_EQNSYSTEM.R:299
+msgid "Values"
+msgstr ""
+"值"
+
+#: STATS_EQNSYSTEM.R:301
+msgid "Equation System Summary"
+msgstr ""
+"方程式系統摘要"
+
+#: STATS_EQNSYSTEM.R:303
+msgid "Results computed by R systemfit package"
+msgstr ""
+"由 R systemfit 套件計算的結果"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Coefficient"
+msgstr ""
+"係數"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Std. Error"
+msgstr ""
+"標準誤"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Sig."
+msgstr ""
+"顯著性"
+
+#: STATS_EQNSYSTEM.R:315
+msgid "(Constant)"
+msgstr ""
+"（常數）"
+
+#: STATS_EQNSYSTEM.R:318
+msgid "R-squared: %.4f Adjusted R-squared: %.4f"
+msgstr ""
+"R 平方：%.4f 調整後 R 平方：%.4f"
+
+#: STATS_EQNSYSTEM.R:319
+msgid "Residual std. error: %.4f, D.f.: %s"
+msgstr ""
+"殘差標準誤：%.4f，自由度：%s"
+
+#: STATS_EQNSYSTEM.R:320
+msgid "SSR: %.4f, MSE: %.4f, Root MSE: %.4f, N: %s"
+msgstr ""
+"SSR：%.4f，MSE：%.4f，主要 MSE：%.4f，N：%s"
+
+#: STATS_EQNSYSTEM.R:325
+msgid "NaN values indicate an estimation problem.  Possibly too few instruments were given"
+msgstr ""
+"NaN 值指出發生估計問題。可能給定的輔助變數太少"
+
+#: STATS_EQNSYSTEM.R:329
+msgid "Equation: %s, Dependent Variable: %s"
+msgstr ""
+"方程式：%s，依變數：%s"
+
+#: STATS_EQNSYSTEM.R:337
+msgid "Residual Covariance Matrix"
+msgstr ""
+"殘差共變異矩陣"
+
+#: STATS_EQNSYSTEM.R:341
+msgid "Residual Correlation Matrix"
+msgstr ""
+"殘差相關性矩陣"
+
+#: STATS_EQNSYSTEM.R:436
+msgid "End of procedure"
+msgstr ""
+"程序的結尾"
+
+#: STATS_EQNSYSTEM.R:463
+msgid "Message Number"
+msgstr ""
+"訊息號碼"
+
+
