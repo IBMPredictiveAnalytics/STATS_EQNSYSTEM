@@ -1,0 +1,230 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_EQNSYSTEM.R:108
+msgid "Equation System"
+msgstr ""
+"等式システム"
+
+#: STATS_EQNSYSTEM.R:109
+msgid "Equation System: Warnings"
+msgstr ""
+"等式システム: 警告"
+
+#: STATS_EQNSYSTEM.R:114
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s パッケージが必要ですが、読み込むことができませんでした。"
+
+#: STATS_EQNSYSTEM.R:121
+msgid "The active dataset must have a name in order to use this procedure"
+msgstr ""
+"この手順を使用するためには、アクティブなデータセットに名前が必要です"
+
+#: STATS_EQNSYSTEM.R:125
+msgid "The output dataset name must not already be in use"
+msgstr ""
+"出力データセット名は、まだ使用されていない名前にする必要があります"
+
+#: STATS_EQNSYSTEM.R:141
+msgid "Cannot specify both automatic instruments and a list of instruments"
+msgstr ""
+"自動操作と操作のリストの両方を指定することはできません"
+
+#: STATS_EQNSYSTEM.R:211
+msgid "Invalid syntax or duplicate equation name"
+msgstr ""
+"シンタックスが無効であるか、等式の名前が重複しています"
+
+#: STATS_EQNSYSTEM.R:217
+msgid "Invalid syntax: Expected \":\""
+msgstr ""
+"無効なシンタックス: 期待されるシンタックス \":\""
+
+#: STATS_EQNSYSTEM.R:224
+msgid "Invalid syntax: Expected \"=\""
+msgstr ""
+"無効なシンタックス: 期待されるシンタックス \"=\""
+
+#: STATS_EQNSYSTEM.R:238
+msgid "One or more invalid variable names were found in the equations."
+msgstr ""
+"等式に 1 つ以上の無効な変数名が見つかりました。"
+
+#: STATS_EQNSYSTEM.R:245
+msgid "Duplicate equation names were found.  Names must be unique, ignoring case."
+msgstr ""
+"重複した等式の名前が見つかりました。名前は一意である必要があります (大文字小文字は無視されます)。"
+
+#: STATS_EQNSYSTEM.R:264
+msgid "Number of Equations"
+msgstr ""
+"等式の数"
+
+#: STATS_EQNSYSTEM.R:265
+msgid "Estimation Method"
+msgstr ""
+"推定方法"
+
+#: STATS_EQNSYSTEM.R:266
+msgid "3SLS Method"
+msgstr ""
+"3SLS 法"
+
+#: STATS_EQNSYSTEM.R:267
+msgid "Residual Covariance Method"
+msgstr ""
+"残差共分散法"
+
+#: STATS_EQNSYSTEM.R:268
+msgid "Instrumental Variables"
+msgstr ""
+"操作変数"
+
+#: STATS_EQNSYSTEM.R:269
+msgid "Maximum Iterations"
+msgstr ""
+"最大反復回数"
+
+#: STATS_EQNSYSTEM.R:270
+msgid "Tolerance"
+msgstr ""
+"許容度"
+
+#: STATS_EQNSYSTEM.R:271
+msgid "Actual Iterations"
+msgstr ""
+"実際の反復回数"
+
+#: STATS_EQNSYSTEM.R:272
+msgid "Convergence Achieved"
+msgstr ""
+"達成された収束基準"
+
+#: STATS_EQNSYSTEM.R:273
+msgid "System D. F."
+msgstr ""
+"システム D. F."
+
+#: STATS_EQNSYSTEM.R:274
+msgid "Output Dataset"
+msgstr ""
+"出力データセット"
+
+#: STATS_EQNSYSTEM.R:278
+#: STATS_EQNSYSTEM.R:287
+#: STATS_EQNSYSTEM.R:289
+#: STATS_EQNSYSTEM.R:292
+#: STATS_EQNSYSTEM.R:295
+msgid "--NA--"
+msgstr ""
+"--NA--"
+
+#: STATS_EQNSYSTEM.R:280
+msgid "Yes"
+msgstr ""
+"はい"
+
+#: STATS_EQNSYSTEM.R:282
+msgid "NO"
+msgstr ""
+"いいえ"
+
+#: STATS_EQNSYSTEM.R:299
+msgid "Values"
+msgstr ""
+"値"
+
+#: STATS_EQNSYSTEM.R:301
+msgid "Equation System Summary"
+msgstr ""
+"等式システムの要約"
+
+#: STATS_EQNSYSTEM.R:303
+msgid "Results computed by R systemfit package"
+msgstr ""
+"R systemfit パッケージによって計算された結果"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Coefficient"
+msgstr ""
+"係数"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Std. Error"
+msgstr ""
+"標準誤差"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Sig."
+msgstr ""
+"有意確率"
+
+#: STATS_EQNSYSTEM.R:315
+msgid "(Constant)"
+msgstr ""
+"(定数)"
+
+#: STATS_EQNSYSTEM.R:318
+msgid "R-squared: %.4f Adjusted R-squared: %.4f"
+msgstr ""
+"R2 乗: %.4f 調整済み R2 乗: %.4f"
+
+#: STATS_EQNSYSTEM.R:319
+msgid "Residual std. error: %.4f, D.f.: %s"
+msgstr ""
+"残差の標準誤差: %.4f、自由度: %s"
+
+#: STATS_EQNSYSTEM.R:320
+msgid "SSR: %.4f, MSE: %.4f, Root MSE: %.4f, N: %s"
+msgstr ""
+"SSR: %.4f、MSE: %.4f、Root MSE: %.4f、N: %s"
+
+#: STATS_EQNSYSTEM.R:325
+msgid "NaN values indicate an estimation problem.  Possibly too few instruments were given"
+msgstr ""
+"NaN 値は、推定の問題を示しています。与えられた操作が少なすぎる可能性があります"
+
+#: STATS_EQNSYSTEM.R:329
+msgid "Equation: %s, Dependent Variable: %s"
+msgstr ""
+"等式: %s、従属変数: %s"
+
+#: STATS_EQNSYSTEM.R:337
+msgid "Residual Covariance Matrix"
+msgstr ""
+"残差共分散行列"
+
+#: STATS_EQNSYSTEM.R:341
+msgid "Residual Correlation Matrix"
+msgstr ""
+"残差相関行列"
+
+#: STATS_EQNSYSTEM.R:436
+msgid "End of procedure"
+msgstr ""
+"手順の終わり"
+
+#: STATS_EQNSYSTEM.R:463
+msgid "Message Number"
+msgstr ""
+"メッセージ番号"
+
+
