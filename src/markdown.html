@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS EQNSYSTEM Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS EQNSYSTEM Extension Command</h1>
+
+<p>Estimate a system of linear equations</p>
+<div class="syntax">
+<p>STATS EQNSYSTEM
+   eqnname: dep = indep indep &hellip; eqnname: dep = indep indep &hellip;  </p>
+
+<p>/INSTRUMENTS 
+    VARIABLES=<em>list of instrumental variables</em> or AUTOMATIC=YES</p>
+
+<p>/OPTIONS 
+METHOD = OLS or TWOSLS or SUR or THREESLS<br/>
+COVMETHOD = GEOMEAN or MAX or THEIL or NODFCOR<br/>
+MAXITER = <em>number of iterations</em>
+TOL = <em>iteration convergence criterion</em></p>
+
+<p>/SAVE 
+DATASET = <em>dataset name</em> ID = <em>id variable</em></p>
+
+<p>/PRINT 
+RESIDCOV=YES or NO<sup>&#42;&#42;</sup> RESIDCOR=YES or NO<sup>&#42;&#42;.</sup></p>
+
+
+
+<p><sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS EQNSYSTEM /HELP prints this help and does nothing else.</p>
+<p>Example:  Three-stage least squares applied to a pair of equations
+with consump and price endogenous.</p>
+
+<pre class="examplenobefore"><code>STATS EQNSYSTEM  
+demand: consump = price income  
+supply: consump=price farmPrice trend  
+/INSTRUMENTS VARIABLES=income farmPrice trend  
+/OPTIONS METHOD=THREESLS.
+</code></pre>
+
+<p>The main subcommand specifies one or more equations to estimate.
+Each equation is written in the form</p>
+
+<pre><code>equation name: dependent variable = list of regressors.
+</code></pre>
+
+<p>The equation name should follow the same rules as variable names,
+and must not be duplicated.
+Include 0 in the regressor list to suppress the constant term.</p>
+
+<h2>INSTRUMENTS</h2>
+
+<p>Instrumental variables must be provided for 2SLS and 3SLS.  The
+instruments can be listed with the <strong>VARIABLES</strong> keyword.<br/>
+Alternatively, if appropriate, specify <strong>AUTOMATIC=YES</strong>
+to use all the right hand side variables that do not appear
+on the left hand side of any equation as the instruments.
+The same set of instruments is used for all equations.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>METHOD</strong> specifies the estimation method.  There is no default.
+The choices are</p>
+
+<ul>
+<li><strong>OLS</strong>: ordinary least squares.</li>
+<li><strong>TWOSLS</strong>: two stage least squares.</li>
+<li><strong>SUR</strong>: seemingly unrelated regression.</li>
+<li><strong>THREESLS</strong>: three stage least squares.</li>
+</ul>
+
+<p><strong>COVMETHOD</strong> specifies how the residual covariance matrix
+is calculated.  The default is GEOMEAN.  Details can be
+found in<br/>
+Judge, George G.; W. E. Griffiths; R. Carter Hill; Helmut Luetkepohl 
+and Tsoung-Chao Lee (1985) <em>The Theory and Practice of Econometrics</em>, 
+Second Edition, Wiley.</p>
+
+<p><strong>MAXITER</strong> specifies how many iterations may be carried out.
+It does not apply to OLS or 2SLS.  The default is 1, i.e.,
+no iteration.</p>
+
+<p><strong>TOL</strong> is the iteration convergence criterion.  The default is
+1e-5.</p>
+
+<h2>SAVE</h2>
+
+<p>The SAVE command is used to create a dataset of residuals.
+There will be one column for each equation.  </p>
+
+<p><strong>DATASET</strong> Specify a name
+for the dataset.  It must not already be in use.</p>
+
+<p><strong>ID</strong> can specify an ID variable that will be the first
+column of the dataset.</p>
+
+<h2>PRINT</h2>
+
+<p>The PRINT subcommand specifies whether the residual
+covariance and correlation matrices between equations
+are displayed.  By default they are not displayed.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
