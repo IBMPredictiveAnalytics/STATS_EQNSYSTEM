@@ -1,0 +1,230 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_EQNSYSTEM.R:108
+msgid "Equation System"
+msgstr ""
+"System równania"
+
+#: STATS_EQNSYSTEM.R:109
+msgid "Equation System: Warnings"
+msgstr ""
+"System równania: Ostrzeżenia"
+
+#: STATS_EQNSYSTEM.R:114
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Pakiet R %s jest wymagany, ale nie można było go wczytać."
+
+#: STATS_EQNSYSTEM.R:121
+msgid "The active dataset must have a name in order to use this procedure"
+msgstr ""
+"Aktywny zbiór danych musi mieć nadaną nazwę, aby możliwe było użycie tej procedury"
+
+#: STATS_EQNSYSTEM.R:125
+msgid "The output dataset name must not already be in use"
+msgstr ""
+"Nazwa wynikowego zbioru danych nie może być już używana"
+
+#: STATS_EQNSYSTEM.R:141
+msgid "Cannot specify both automatic instruments and a list of instruments"
+msgstr ""
+"Nie można określić jednocześnie instrumentów automatycznych oraz listy instrumentów"
+
+#: STATS_EQNSYSTEM.R:211
+msgid "Invalid syntax or duplicate equation name"
+msgstr ""
+"Niepoprawna składnia lub powielona nazwa równania"
+
+#: STATS_EQNSYSTEM.R:217
+msgid "Invalid syntax: Expected \":\""
+msgstr ""
+"Niepoprawna składnia: Oczekiwano \":\""
+
+#: STATS_EQNSYSTEM.R:224
+msgid "Invalid syntax: Expected \"=\""
+msgstr ""
+"Niepoprawna składnia: Oczekiwano \"=\""
+
+#: STATS_EQNSYSTEM.R:238
+msgid "One or more invalid variable names were found in the equations."
+msgstr ""
+"W równaniach znaleziono jedną lub więcej niepoprawnych nazw zmiennych."
+
+#: STATS_EQNSYSTEM.R:245
+msgid "Duplicate equation names were found.  Names must be unique, ignoring case."
+msgstr ""
+"Napotkano zduplikowane nazwy równań. Nazwy muszą być unikalne, przy czym nie jest rozróżniana wielkość liter."
+
+#: STATS_EQNSYSTEM.R:264
+msgid "Number of Equations"
+msgstr ""
+"Liczba równań"
+
+#: STATS_EQNSYSTEM.R:265
+msgid "Estimation Method"
+msgstr ""
+"Metoda estymacji"
+
+#: STATS_EQNSYSTEM.R:266
+msgid "3SLS Method"
+msgstr ""
+"Metoda 3SLS"
+
+#: STATS_EQNSYSTEM.R:267
+msgid "Residual Covariance Method"
+msgstr ""
+"Metoda kowariancji reszt"
+
+#: STATS_EQNSYSTEM.R:268
+msgid "Instrumental Variables"
+msgstr ""
+"Zmienne instrumentalne"
+
+#: STATS_EQNSYSTEM.R:269
+msgid "Maximum Iterations"
+msgstr ""
+"Maksymalna liczba iteracji"
+
+#: STATS_EQNSYSTEM.R:270
+msgid "Tolerance"
+msgstr ""
+"Tolerancja"
+
+#: STATS_EQNSYSTEM.R:271
+msgid "Actual Iterations"
+msgstr ""
+"Rzeczywista liczba iteracji"
+
+#: STATS_EQNSYSTEM.R:272
+msgid "Convergence Achieved"
+msgstr ""
+"Osiągnięto zbieżność"
+
+#: STATS_EQNSYSTEM.R:273
+msgid "System D. F."
+msgstr ""
+"Systemowa df"
+
+#: STATS_EQNSYSTEM.R:274
+msgid "Output Dataset"
+msgstr ""
+"Wyjściowy zbiór danych"
+
+#: STATS_EQNSYSTEM.R:278
+#: STATS_EQNSYSTEM.R:287
+#: STATS_EQNSYSTEM.R:289
+#: STATS_EQNSYSTEM.R:292
+#: STATS_EQNSYSTEM.R:295
+msgid "--NA--"
+msgstr ""
+"--Nie dotyczy--"
+
+#: STATS_EQNSYSTEM.R:280
+msgid "Yes"
+msgstr ""
+"Tak"
+
+#: STATS_EQNSYSTEM.R:282
+msgid "NO"
+msgstr ""
+"NO"
+
+#: STATS_EQNSYSTEM.R:299
+msgid "Values"
+msgstr ""
+"Wartości"
+
+#: STATS_EQNSYSTEM.R:301
+msgid "Equation System Summary"
+msgstr ""
+"Podsumowanie systemu równania"
+
+#: STATS_EQNSYSTEM.R:303
+msgid "Results computed by R systemfit package"
+msgstr ""
+"Wyniki obliczone za pośrednictwem pakietu R systemfit"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Coefficient"
+msgstr ""
+"Współczynnik"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Std. Error"
+msgstr ""
+"Błąd standardowy"
+
+#: STATS_EQNSYSTEM.R:312
+msgid "Sig."
+msgstr ""
+"Ist."
+
+#: STATS_EQNSYSTEM.R:315
+msgid "(Constant)"
+msgstr ""
+"(Stała)"
+
+#: STATS_EQNSYSTEM.R:318
+msgid "R-squared: %.4f Adjusted R-squared: %.4f"
+msgstr ""
+"R-kwadrat: %.4f R-kwadrat skorygowane: %.4f"
+
+#: STATS_EQNSYSTEM.R:319
+msgid "Residual std. error: %.4f, D.f.: %s"
+msgstr ""
+"Błąd standardowy reszty: %.4f, D.f.: %s"
+
+#: STATS_EQNSYSTEM.R:320
+msgid "SSR: %.4f, MSE: %.4f, Root MSE: %.4f, N: %s"
+msgstr ""
+"SSR: %.4f, MSE: %.4f, Źródłowy MSE: %.4f, N: %s"
+
+#: STATS_EQNSYSTEM.R:325
+msgid "NaN values indicate an estimation problem.  Possibly too few instruments were given"
+msgstr ""
+"Wartości nieokreślone wskazują na problem z oszacowaniem. Możliwe, że podano za mało instrumentów"
+
+#: STATS_EQNSYSTEM.R:329
+msgid "Equation: %s, Dependent Variable: %s"
+msgstr ""
+"Równanie: %s, zmienna zależna: %s"
+
+#: STATS_EQNSYSTEM.R:337
+msgid "Residual Covariance Matrix"
+msgstr ""
+"Macierz kowariancji reszt"
+
+#: STATS_EQNSYSTEM.R:341
+msgid "Residual Correlation Matrix"
+msgstr ""
+"Macierz korelacji reszt"
+
+#: STATS_EQNSYSTEM.R:436
+msgid "End of procedure"
+msgstr ""
+"Koniec procedury"
+
+#: STATS_EQNSYSTEM.R:463
+msgid "Message Number"
+msgstr ""
+"Numer komunikatu"
+
+
