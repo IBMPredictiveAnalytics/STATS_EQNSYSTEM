@@ -1,11 +1,13 @@
 # STATS EQNSYSTEM
 ## Estimate system of linear equations
- This procedure estimates a system of linear equations by 
+ This procedure estimates a system of linear equations by 3SLS, 2SLS, SUR, or OLS.  The dialog box handles only two equations, but an unlimited number can be used in syntax.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
+
+Note: For users with IBM SPSS Statistics version 23 or higher, the STATS EQNSYSTEM extension is installed as part of IBM SPSS Statistics-Essentials for R.
 
 ---
 Installation intructions
