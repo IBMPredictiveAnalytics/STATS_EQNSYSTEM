@@ -4,11 +4,11 @@ Command-Specs: STATS_EQNSYSTEM.xml
 Code-Files: STATS_EQNSYSTEM.R
 Misc-Files: extsyntax.css,markdown.html,IBMdialogicon.png
 Summary: Estimate system of linear equations
-Description: This procedure estimates a system of linear equations by 
- 3SLS, 2SLS, SUR, or OLS.  The dialog box handles only two equations, 
+Description: This procedure estimates a system of linear equations by
+ 3SLS, 2SLS, SUR, or OLS.  The dialog box handles only two equations,
  but an unlimited number can be used in syntax.
 Author: JKP, IBM SPSS
-Version: 1.0.2
+Version: 1.0.3
 Product-Version: 18
 Date: 6/12/14
 Categories: econometrics, statistics, 3SLS, 2SLS, SUR
